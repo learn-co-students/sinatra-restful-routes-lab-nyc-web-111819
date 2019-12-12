@@ -1,0 +1,6 @@
+<ul>
+<%@list.each do |recipe|%>
+    <li><%=recipe.name%></li>
+    <li><a href = "/recipes/<%=recipe.id%>">View Recipe</a></li>
+<%end%>
+</ul>
